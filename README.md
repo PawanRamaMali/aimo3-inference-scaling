@@ -173,14 +173,16 @@ cmd = [
 ```
 .
 ├── README.md
+├── LICENSE                    # MIT License
+├── requirements.txt
 ├── inference/
-│   ├── config.py          # Configuration settings
-│   ├── solver.py          # Main solver class
-│   ├── voting.py          # Entropy-weighted voting
-│   └── sandbox.py         # Jupyter sandbox for code execution
-├── experiments/
-│   └── version_history.md # Detailed experiment log
-└── requirements.txt
+│   ├── __init__.py           # Module exports
+│   ├── config.py             # Configuration settings
+│   ├── solver.py             # Main solver class
+│   ├── voting.py             # Entropy-weighted voting
+│   └── sandbox.py            # Jupyter sandbox for code execution
+└── experiments/
+    └── version_history.md    # Detailed experiment log
 ```
 
 ## Requirements

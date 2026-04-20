@@ -4,7 +4,7 @@ class Config:
     """Best configuration (V40 - 42/50)."""
 
     # Model settings
-    MODEL_PATH = "danielhanchen/gpt-oss-120b"
+    MODEL_PATH = "openai/gpt-oss-120b"
     CONTEXT_TOKENS = 65536
     KV_CACHE_DTYPE = "fp8_e4m3"
     GPU_MEMORY_UTILIZATION = 0.96

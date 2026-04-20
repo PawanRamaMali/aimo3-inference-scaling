@@ -71,7 +71,7 @@ Problem Input
 
 ```python
 # Model
-model = "danielhanchen/gpt-oss-120b"
+model = "openai/gpt-oss-120b"
 context_tokens = 65536
 kv_cache_dtype = "fp8_e4m3"
 
@@ -194,12 +194,12 @@ cmd = [
 
 - **Kaggle Notebook:** https://www.kaggle.com/code/pawanmali/aimo3-gpt-oss-120b
 - **Kaggle Writeup:** https://www.kaggle.com/competitions/ai-mathematical-olympiad-progress-prize-3/writeups/scaling-inference-time-compute-for-mathematical-re
-- **Model:** https://huggingface.co/danielhanchen/gpt-oss-120b
+- **Model:** https://huggingface.co/openai/gpt-oss-120b
 
 ## Acknowledgments
 
 - AIMO Prize Foundation for organizing the competition
-- Daniel Hanchen for GPT-OSS-120B
+- OpenAI for releasing GPT-OSS-120B as open weights
 - XTX Markets for sponsoring the prize
 - Kaggle community (nihilisticneuralnet, huikang, datasciencegrad) for public notebooks
 

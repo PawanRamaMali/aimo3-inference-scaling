@@ -181,6 +181,8 @@ cmd = [
 │   ├── solver.py             # Main solver class
 │   ├── voting.py             # Entropy-weighted voting
 │   └── sandbox.py            # Jupyter sandbox for code execution
+├── notebooks/
+│   └── demo.ipynb            # Google Colab demo notebook
 └── experiments/
     └── version_history.md    # Detailed experiment log
 ```
@@ -195,13 +197,15 @@ cmd = [
 ## Links
 
 - **Kaggle Notebook:** https://www.kaggle.com/code/pawanmali/aimo3-gpt-oss-120b
-- **Kaggle Writeup:** https://www.kaggle.com/competitions/ai-mathematical-olympiad-progress-prize-3/writeups/scaling-inference-time-compute-for-mathematical-re
-- **Model:** https://huggingface.co/openai/gpt-oss-120b
+- **Kaggle Writeup:** https://www.kaggle.com/code/pawanmali/chasing-47-50-aimo3-journey-of-50-experiments
+- **Google Colab:** [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/PawanRamaMali/aimo3-inference-scaling/blob/master/notebooks/demo.ipynb)
+- **Model (Kaggle):** https://www.kaggle.com/models/danielhanchen/gpt-oss-120b
+- **Model (HuggingFace):** https://huggingface.co/unsloth/gpt-oss-120B
 
 ## Acknowledgments
 
 - AIMO Prize Foundation for organizing the competition
-- OpenAI for releasing GPT-OSS-120B as open weights
+- Daniel Hanchen / Unsloth for GPT-OSS-120B model
 - XTX Markets for sponsoring the prize
 - Kaggle community (nihilisticneuralnet, huikang, datasciencegrad) for public notebooks
 

@@ -4,7 +4,9 @@ class Config:
     """Best configuration (V40 - 42/50)."""
 
     # Model settings
-    MODEL_PATH = "openai/gpt-oss-120b"
+    # Kaggle: https://www.kaggle.com/models/danielhanchen/gpt-oss-120b
+    # HuggingFace: https://huggingface.co/unsloth/gpt-oss-120B
+    MODEL_PATH = "danielhanchen/gpt-oss-120b"
     CONTEXT_TOKENS = 65536
     KV_CACHE_DTYPE = "fp8_e4m3"
     GPU_MEMORY_UTILIZATION = 0.96
